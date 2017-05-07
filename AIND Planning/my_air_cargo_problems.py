@@ -128,7 +128,7 @@ class AirCargoProblem(Problem):
         possible_actions = []
         kb = PropKB()
         kb.tell(decode_state(state, self.state_map).pos_sentence())
-        possible_actions = [ a for a in self.actions_list if a.check_precond(kb, a.args) ]
+        possible_actions = [a for a in self.actions_list if a.check_precond(kb, a.args)]
         return possible_actions
         
 
