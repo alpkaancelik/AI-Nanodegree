@@ -311,16 +311,7 @@ class PlanningGraph():
         #   set iff all prerequisite literals for the action hold in S0.  This can be accomplished by testing
         #   to see if a proposed PgNode_a has prenodes that are a subset of the previous S level.  Once an
         #   action node is added, it MUST be connected to the S node instances in the appropriate s_level set.
-        '''
-        for action in self.all_actions:
-            newnode = PgNode_a(action)
-            if newnode.prenodes.issubset(self.s_levels[level]):
-                self.a_levels[level].add(newnode)
-                for snode in self.s_levels[level]:
-                    if snode in newnode.prenodes:
-                        newnode.parents.add(snode)
-                        snode.children.add(newnode)
-                        '''
+
         newset = set()
         for action in self.all_actions:
             newnode = PgNode_a(action)
@@ -360,21 +351,6 @@ class PlanningGraph():
 
         self.s_levels.append(newset)
 
-        '''
-        for node in self.s_levels[level]:
-            if node in newnode.prenodes:
-                snode.parents.add(anode)
-                anode.children.add(snode)'''
-        '''        
-        for action in self.all_actions:
-            newnode = PgNode_a(action)
-            if newnode.prenodes.issubset(self.s_levels[level]):
-                self.a_levels[level].add(newnode)
-                for snode in self.s_levels[level]:
-                    if snode in newnode.prenodes:
-                        newnode.parents.add(snode)
-                        snode.children.add(newnode)
-            '''
     def update_a_mutex(self, nodeset):
         ''' Determine and update sibling mutual exclusion for A-level nodes
 
@@ -569,12 +545,3 @@ class PlanningGraph():
                     level_sum += i
                 i += 1   
         return level_sum
-    '''
-        for set in self.s_levels:
-            for node in set:
-                    #if Problem.goal_test(self.problem,node):
-                    #for goalcheck in self.problem.goal:
-                print(goal, node.symbol)
-                if node.symbol == goal:
-                    level_sum += i
-                    break'''
