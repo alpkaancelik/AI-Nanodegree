@@ -1,0 +1,25 @@
+-------------------
+input chars = 
+eyes she eclipses and predominates the whole of her sex. it was not that he felt any emotion akin to"
+predicted chars = 
+ me. i have to see that the lettle mas prayes, and i was a claialy against the will retures. i have "
+-------------------
+input chars = 
+she eclipses and predominates the whole of her sex. it was not that he felt any emotion akin to love"
+predicted chars = 
+ and seemed my starlest. i am should be to some hample chuld be in the most and of my senceed on the"
+-------------------
+input chars = 
+es and predominates the whole of her sex. it was not that he felt any emotion akin to love for irene"
+predicted chars = 
+ in the laty. i had not be my said holmes he hand to mind that he has and the lottle for me in the l"
+-------------------
+input chars = 
+of her sex. it was not that he felt any emotion akin to love for irene adler. all emotions, and that"
+predicted chars = 
+ he mis to tome of the wandors, and i was al no tould be an one of the matter and secred to may of i"
+-------------------
+input chars = 
+in to love for irene adler. all emotions, and that one particularly, were abhorrent to his cold, pre"
+predicted chars = 
+cision in the most to should harr it one were than your heard of the most realond, with her say said"
