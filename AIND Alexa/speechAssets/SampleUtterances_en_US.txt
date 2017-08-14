@@ -1,0 +1,33 @@
+GetNewFactIntent a fact
+GetNewFactIntent tell me a fact
+GetNewFactIntent give me a fact
+GetNewFactIntent give me something
+GetNewFactIntent a space fact
+GetNewFactIntent tell me a history fact
+GetNewFactIntent give me a history fact
+GetNewFactIntent tell me trivia
+GetNewFactIntent tell me a history trivia
+GetNewFactIntent give me trivia
+GetNewFactIntent give me a history trivia
+GetNewFactIntent give me some information
+GetNewFactIntent give me some history information
+GetNewFactIntent give me something
+GetNewFactIntent give me something about history
+GetNewFactIntent tell me something
+GetNewFactIntent tell me something about history
+GetNewFactIntent tell me something about artificial intelligence
+GetNewYearFactIntent a fact in {FACT_YEAR}
+GetNewYearFactIntent a fact from {FACT_YEAR}
+GetNewYearFactIntent tell me a fact from the year {FACT_YEAR}
+GetNewYearFactIntent tell me something from {FACT_YEAR}
+GetNewYearFactIntent tell me an event from {FACT_YEAR}
+GetNewYearFactIntent give me a fact from {FACT_YEAR}
+GetNewYearFactIntent give me something from {FACT_YEAR}
+GetNewYearFactIntent what happened in {FACT_YEAR}
+GetNewYearFactIntent tell me something that happened in {FACT_YEAR}
+GetNewYearFactIntent can you tell me an event from {FACT_YEAR}
+GetNewYearFactIntent is there anything interesting in {FACT_YEAR}
+GetNewYearFactIntent say a fact about {FACT_YEAR}
+GetNewYearFactIntent what can you say about {FACT_YEAR}
+GetNewYearFactIntent a history fact {FACT_YEAR}
+GetNewYearFactIntent enlighten me about {FACT_YEAR}
